@@ -174,14 +174,14 @@ export const EDUCATION = [
   {
     degree: "Master of Computer Application",
     institution: "Birla Institute of Technology, Mesra",
-    duration: "August 2020 - May 2023",
+    duration: "August 2023 - May 2025",
     description:
       "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and ReactJS. Completed a minor project on developing an Doctor Appointment Booking System. I won the 1st prize in the Data Hunt event at the Data Science Summit '23.",
   },
   {
     degree: "Bachelor of Computer Application",
     institution: "Birla Institute of Technology, Mesra",
-    duration: "August 2023 - May 2025",
+    duration: "August 2020 - May 2023",
     description:
       "I completed  Bachelor’s of Computer Applications (BCA) from Birla Institute of Technology, Mesra, specializing in software development, programming, and computer science fundamentals. I won the 1st prize in the Speedster event at the Aurora '23.",
   },
