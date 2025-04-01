@@ -22,6 +22,7 @@ import { FaJava } from "react-icons/fa6";
 import { FaNode } from "react-icons/fa";
 import { TbSql } from "react-icons/tb";
 import { FaSquareGit } from "react-icons/fa6";
+import { FaGolang } from "react-icons/fa6";
 
 
 
@@ -90,6 +91,14 @@ export const PROJECTS = [
     image: projectImage6,
     githubLink: "https://github.com/abhijeetsharan/PyShooter",
   },
+  {
+    id: 7,
+    name: "Go Notes",
+    description:
+      "Developed a Notes App using Golang in Backend And React.js in the frontend including Redux for state management.",
+    image: projectImage6,
+    githubLink: "https://github.com/abhijeetsharan/Go-Notes",
+  },
 ];
 
 export const BIO = [
@@ -103,6 +112,11 @@ export const SKILLS = [
     icon: <TbBrandCpp className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "C++",
     experience: "2+ year",
+  },
+  {
+    icon: <FaGolang className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Golang",
+    experience: "3 months",
   },
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
@@ -148,25 +162,11 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
+    title: "Software Developer Intern",
+    company: "Aarovate",
+    duration: "January 2025 - Present",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
-  },
-  {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
-    description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  },
-  {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
-    description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+      "As the SDE Intern, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
   },
 ];
 
