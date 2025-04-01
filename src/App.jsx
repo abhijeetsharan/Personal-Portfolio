@@ -8,9 +8,12 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 // import WorkExperience from './components/WorkExperience'
 import Hyperspeed from './libs/Hyperspeed'
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
+    <>
+      <Analytics />
     <div className='relative h-full overflow-y-auto antialiased'>
       <div className='fixed inset-0 bg-fixed bg-cover bg-center'>
         <Hyperspeed
@@ -65,6 +68,7 @@ const App = () => {
         <Footer />
       </div>
     </div>
+    </>
   )
 }
 
