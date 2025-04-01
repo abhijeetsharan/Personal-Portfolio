@@ -5,6 +5,7 @@ import {
   FaFacebook,
   FaDiscord,
   FaInstagram,
+  FaSquareXTwitter,
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
@@ -98,6 +99,22 @@ export const PROJECTS = [
       "Developed a Notes App using Golang in Backend And React.js in the frontend including Redux for state management.",
     image: projectImage6,
     githubLink: "https://github.com/abhijeetsharan/Go-Notes",
+  },
+  {
+    id: 8,
+    name: "PDF OCR Parser",
+    description:
+      "A web-based application designed for uploading, parsing, and interacting with PDF documents. Extract text from PDFs, perform keyword-based searches, and generate concise summaries using modern NLP techniques.",
+    image: projectImage2,
+    githubLink: "https://github.com/abhijeetsharan/PDF-OCR-Scanner",
+  },
+  {
+    id: 9,
+    name: "AI Code Performance Tool",
+    description:
+      "An AI-powered tool to analyze code snippets for performance bottlenecks and provide optimization suggestions via a user-friendly interface.",
+    image: projectImage3,
+    githubLink: "https://github.com/abhijeetsharan/AI-Code-Performance-Tool",
   },
 ];
 
@@ -196,5 +213,9 @@ export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://www.linkedin.com/in/abhijeetsharan1510/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://x.com/devilabhiiii",
+    icon: <FaSquareXTwitter fontSize={25} className="hover:opacity-80" />,
   },
 ];
