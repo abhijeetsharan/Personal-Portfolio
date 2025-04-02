@@ -1,5 +1,5 @@
 import { HERO } from "../constants"
-import carlImg from "../assets/carl.jpg"
+import ProPic from "../assets/ProPic.jpeg"
 import { motion } from "framer-motion"
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -81,7 +81,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            src={carlImg} 
+            src={ProPic} 
             width={450} 
             height={450} 
             alt="Abhijeet Sharan" 
