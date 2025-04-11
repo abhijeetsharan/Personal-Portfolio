@@ -9,6 +9,7 @@ import Skills from './components/Skills'
 // import WorkExperience from './components/WorkExperience'
 import Hyperspeed from './libs/Hyperspeed'
 import { Analytics } from "@vercel/analytics/react"
+import SplashCursor from './libs/SplashCursor'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Analytics />
     <div className='relative h-full overflow-y-auto antialiased'>
       <div className='fixed inset-0 bg-fixed bg-cover bg-center'>
+        <SplashCursor />
         <Hyperspeed
           effectOptions={{
             onSpeedUp: () => { },
