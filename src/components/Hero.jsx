@@ -2,10 +2,13 @@ import { HERO } from "../constants"
 import Abhijeet from "../assets/Abhijeet.jpg"
 import { motion } from "framer-motion"
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { FaSquareXTwitter } from "react-icons/fa6";
-import GradientText from '../libs/GradientText';
+import { FaSquareXTwitter } from "react-icons/fa6"
+import { useRef } from 'react'
+import ShinyText from '../libs/ShinyText'
 
 const Hero = () => {
+  const descriptionRef = useRef(null);
+
   return (
     <section className='flex min-h-screen flex-wrap items-center justify-center py-10'>
       <motion.div
@@ -33,18 +36,16 @@ const Hero = () => {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          className="mb-6 p-2 text-xl text-gray-300 max-w-lg">
-          <GradientText
-            colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
-            animationSpeed={3}
-            showBorder={false}
+          className="mb-6 p-2 text-xl text-gray-300 max-w-lg"
+          ref={descriptionRef}
+          style={{ position: 'relative' }}>
+          <ShinyText
+            text={HERO.description}
             className="custom-class"
-          >
-            {HERO.description}
-          </GradientText>
+            disabled={false}
+            speed={3}
+          />
         </motion.p>
-
-
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
